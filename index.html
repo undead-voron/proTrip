@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Страница тура</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<!--<nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container-fluid bgset">
+			<div class="container outer">
+				<div class="container-fluid">
+					
+					<button type="button" class="navbar-toggle custom" data-toggle="collapse" data-target=".navbar-ex-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img src="img/logo_blue.png" class="logo">
+					<div class="moto"><a>фитнес-туры<br>№1 в россии</a></div>
+					<div class="contact">
+						<a href="#"><img src="img/whatsapp.png" class="whatsapp"></a>
+						<a href="#"><img src="img/phone.png" class="phone"></a>
+						<button class="btn btn-custom">Заказать звонок</button>
+					</div>
+					
+					
+					<div class="collapse navbar-collapse navbar-ex-collapse text-sm-center">
+						<ul class="nav navbar-nav">
+							<li><a data-toggle="dropdown" href="#">О PROTRIP</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">История PROTRIP</a></li>
+									<li><a href="#">Как мы работаем</a></li>
+									<li><a href="#">Тренировочные программы</a></li>
+									<li><a href="#">Партнерам</a></li>
+								</ul>
+							</li>
+							<li><a href="#">наша команда</a></li>
+							<li><a data-toggle="dropdown" href="#">блог</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">История PROTRIP</a></li>
+									<li><a href="#">Как мы работаем</a></li>
+									<li><a href="#">Тренировочные программы</a></li>
+								</ul></li>
+							<li><a href="#">бесплатная йога в москве</a></li>
+							<li><a href="#">наша студия</a></li>
+							<li><a href="#">контакты</a></li>
+							<li class="hidden-sm"><a class="phone hidden-xs">+7 499 322 86 44</a></li>
+						</ul>
+						<div class="nav navbar-nav navbar-right">
+							<button class="btn navbar-btn btn-custom hidden-xs" data-toggle="modal" data-target="#form">Заказать звонок</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="footer">
+			<div class="row">
+				<div class="col-xs-12 text-center top-10">
+					<button class="btn btn-custom">
+						Заказать звонок
+					</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center top-10">
+					<a href="#"><img src="img/vk_filled.png"></a>
+					<a href="#"><img src="img/facebook_filled.png"></a>
+					<a href="#"><img src="img/instagram_filled.png"></a>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-12 top-10">
+					<a>
+						123001 Москва, ул.Садовая-Кудринская, д.32а, стр.9<br>
+						ООО “ПРОТРИП”<br>
+						ОГРН 5167746226676
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>-->
+	<nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container-fluid bgset">
+			
+			
+			<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed custom" data-toggle="collapse" data-target="#navbar-ex-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img src="img/logo_blue.png" class="logo">
+					<div class="moto"><a>фитнес-туры<br>№1 в россии</a></div>
+					<div class="contact">
+						<a href="#"><img src="img/whatsapp.png" class="whatsapp"></a>
+						<a href="#"><img src="img/phone.png" class="phone"></a>
+						<button class="btn btn-custom">Заказать звонок</button>
+					</div>
+			</div>
+					
+					<div class="collapse navbar-collapse navbar-ex-collapse text-sm-center" id="navbar-ex-collapse">
+						<ul class="nav navbar-nav">
+							<li><a data-toggle="dropdown" href="#">О PROTRIP</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">История PROTRIP</a></li>
+									<li><a href="#">Как мы работаем</a></li>
+									<li><a href="#">Тренировочные программы</a></li>
+									<li><a href="#">Партнерам</a></li>
+								</ul>
+							</li>
+							<li><a href="#">наша команда</a></li>
+							<li><a data-toggle="dropdown" href="#">блог</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">История PROTRIP</a></li>
+									<li><a href="#">Как мы работаем</a></li>
+									<li><a href="#">Тренировочные программы</a></li>
+								</ul></li>
+							<li><a href="#">бесплатная йога в москве</a></li>
+							<li><a href="#">наша студия</a></li>
+							<li><a href="#">контакты</a></li>
+							<li class="hidden-sm"><a class="phone hidden-xs">+7 499 322 86 44</a></li>
+							<li><button class="btn navbar-btn btn-custom hidden-xs" data-toggle="modal" data-target="#form">Заказать звонок</button></li>
+						</ul>
+					</div>
+				
+			
+		</div>
+		
+		
+		<!--<div class="footer">
+			<div class="row">
+				<div class="col-xs-12 text-center top-10">
+					<button class="btn btn-custom">
+						Заказать звонок
+					</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center top-10">
+					<a href="#"><img src="img/vk_filled.png"></a>
+					<a href="#"><img src="img/facebook_filled.png"></a>
+					<a href="#"><img src="img/instagram_filled.png"></a>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-12 top-10">
+					<a>
+						123001 Москва, ул.Садовая-Кудринская, д.32а, стр.9<br>
+						ООО “ПРОТРИП”<br>
+						ОГРН 5167746226676
+					</a>
+				</div>
+			</div>
+		</div>-->
+	</nav>
+
+	<div class="container-fluid header">
+		<img src="img/title.png" class="main">
+		<div class="container">
+			<div class="row">
+				<nav class="hidden-xs navbar navbar-transparent top-10" id='second_menu' >
+					<div class="container">
+
+						<div class="outer">
+							
+							<div class="navbar-header">
+								<a class="navbar-brand brand" href="./index.html"><img src="img/logo_main.png" height="80" width="auto"></a>
+							</div>
+							
+							<div class="inner" style="display: table-cell; position: relative; vertical-align: middle">
+								<ul class="nav navbar-nav">
+									<li><a href="#">все туры</a></li>
+									<li><a data-toggle="dropdown" href="#">туры по странам</a>
+										<div class="dropdown-menu">
+											<div class="holder">
+												<ul class="custom-drop">
+													<li><a class="head">Европа</a></li>
+													<li><a href="#">Греция</a></li>
+													<li><a href="#">Черногория</a></li>
+													<li><a href="#">Кипр</a></li>
+													<li><a href="#">Испания</a></li>
+													<li><a href="#">Мальдивы</a></li>
+													<li><a href="#">Словения</a></li>
+													<li><a href="#">Италия</a></li>
+												</ul>
+												<ul class="custom-drop">
+													<li><a class="head">Азия</a></li>
+													<li><a href="#">Вьетнам</a></li>
+													<li><a href="#">Гоа</a></li>
+													<li><a href="#">Шри-Ланка</a></li>
+													<li><a href="#">Тайланд</a></li>
+													<li><a href="#">Индия</a></li>
+													<li><a href="#">Китай</a></li>
+													<li><a href="#">Бали</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li><a href="#">туры по направлениям</a></li>
+									<li><a href="#">туры по месяцам</a></li>
+									<li><a href="#">отзывы и отчеты</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<!--<div class="collapse navbar-collapse navbar-ex-collapse text-sm-center">
+								<ul class="nav navbar-nav">
+									<li><a href="#">все туры</a></li>
+									<li><a data-toggle="dropdown" href="#">туры по странам</a>
+										<div class="dropdown-menu">
+											<div class="holder">
+												<ul class="custom-drop">
+													<li><a class="head">Европа</a></li>
+													<li><a href="#">Греция</a></li>
+													<li><a href="#">Черногория</a></li>
+													<li><a href="#">Кипр</a></li>
+													<li><a href="#">Испания</a></li>
+													<li><a href="#">Мальдивы</a></li>
+													<li><a href="#">Словения</a></li>
+													<li><a href="#">Италия</a></li>
+												</ul>
+												<ul class="custom-drop">
+													<li><a class="head">Азия</a></li>
+													<li><a href="#">Вьетнам</a></li>
+													<li><a href="#">Гоа</a></li>
+													<li><a href="#">Шри-Ланка</a></li>
+													<li><a href="#">Тайланд</a></li>
+													<li><a href="#">Индия</a></li>
+													<li><a href="#">Китай</a></li>
+													<li><a href="#">Бали</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li><a href="#">туры по направлениям</a></li>
+									<li><a href="#">туры по месяцам</a></li>
+									<li><a href="#">отзывы и отчеты</a></li>
+								</ul>
+							</div>-->
+
+					</div>
+				</nav>
+			</div>
+			<div class="row top-20">
+				<div class="col-sm-12">
+					<button class="btn btn-transparent btn-lg btn-header pull-left">Фитнес-тур</button>
+				</div>
+			</div>
+			<div class="row top-20 top-sm-40">
+				<div class="col-xs-12">
+					<h1>войдите в новую жизнь<br>после отпуска в тайланде</h1>
+				</div>
+			</div>
+
+			<div class="row top-sm-20">
+				<div class="col-sm-12">
+					<a class="offer">Скидка 5 000р. ПРИ РАННЕМ БРОНИРОВАНИИ</a>
+				</div>
+			</div>
+			<div class="row top-20 top-sm-40">
+				<div class="col-sm-12">
+					<img src="img/calendar.png" class="icon"><p>с 11 по 21 марта</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<img src="img/marker.png" class="icon"><p>Отель: Naithonburi Beach Resort 4*</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<img src="img/wallet.png" class="icon"><p>1400 $</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<img src="img/parking.png" class="icon"><p>Осталось мест: 9</p>
+				</div>
+			</div>
+			<div class="row top-sm-40">
+				<div class="col-sm-12 text-center text-sm-left buttons">
+					<button class="btn btn-transparent btn-lg light wide">Узнать подробнее</button>
+					<button class="left-20 btn btn-custom btn-lg wide">Оставить заявку</button>
+				</div>
+
+			</div>
+
+			<div class="row top-20 hidden-xs">
+				<div class="col-sm-12 info">
+					<a href="#">Туристический договор</a><a class="bordered" href="#">Мы в Вконтакте</a><a href="#">Мы на Facebook</a><a class="bordered" href="#">Мы в Instagram</a><a>+7499 322 86 44</a>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="container text-center article bottom-20 top-sm-40">
+		<h2>
+			фитнес и йога тур в тайланд
+		</h2>
+		<div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+			<p>
+				Йога и фитнес туры от ProTrip — это идейный проект рассчитанный на тех, кто хочет познать себя, расширить горизонты сознания и знакомиться с близкими по духу людьми.
+			</p>
+			<a class="video-link" data-target="#video" data-toggle="modal" href="#">Посмотрите видео о том, как проходят наши фитнес-туры ></a>
+		</div>
+
+	</div>
+
+	<div class="container-fluid watch text-center bottom-40">
+		<a data-target="#video_tour" data-toggle="modal" href="#">
+		<img src="img/video.png" class="bg"><img src="img/play.png" class="play"></a>
+	</div>
+
+	<div class="container text-center mentor">
+		<h2>
+			обращение наставника тура
+		</h2>
+		<div class="col-xs-6 col-xs-offset-3 col-md-offset-0 col-md-4 col-lg-3">
+			<a href="#"><img src="img/mentor.png"></a>
+			<a href="#" class="col-xs-12">Сергей Коробов</a>
+		</div>
+		<div class="col-xs-12 col-md-8 text-left">
+			<p>
+				В середине марта мы приготовили для вас уникальное путешествие в Тайланд. Мы отправимся на самый красивый остров Пхукет и проведем наш фитнес тур.
+			</p>
+			<p>
+				Тайланд всегда считался достаточно духовным местом. Поэтому наша команда очень любит делать выезды сюда. Нас по традиции ждут уникальнейшие тренировки, треккинги по джунглям, занятия в воде и многое другое. По опыты прошлых туров статистикой доказано, что каждый участник тура потеряет от 3 до 5 килограмм за тур.
+			</p>
+			<p>
+				Но в наших турах это не самое главное. Самое важное для нас создать атмосферу праздника для вас. Фитнес же помогает объединить всех, зарядить здоровьем и жизненной энергией. Мы будем жить в чудесном отеле Naithonburi Beach Resort 4*. На территории этого отеля огромное количество зеленых площадок, на которых будут происходить все наши занятия.
+			</p>
+			<p>
+				Мы всегда живем на первой линии, поэтому утренние пробежки доставят огромное удовольствие, даже тем кто никогда в жизни не бегал.
+			</p>
+			<p>
+				Ждём вас в путешествии мечты в Тайланд.
+			</p>
+			<p>
+				«Там каждое утро доброе.»
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid multivideo top-sm-40">
+		<div class="outer">
+			<div class="inner">
+				<a class="link" data-target="#teacher_info" data-toggle="modal" href="#">Смотреть видео о наставнике<img src="img/play_inverted.png"></a>
+				<a data-target="#teacher_info" data-toggle="modal" href="#">
+					<img src="img/video1.png">
+				</a>
+			</div>
+		</div>
+		<div class="outer">
+			<div class="inner">
+				<a class="link" data-target="#teacher_invite" data-toggle="modal" href="#">Смотреть видео приглашение<img src="img/play_inverted.png"></a>
+				<a data-target="#teacher_invite" data-toggle="modal" href="#">
+					<img src="img/video2.png">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid multivideo top-sm-40">
+		<div class="outer">
+			<div class="inner">
+				<a class="link" data-target="#teacher_info" data-toggle="modal" href="#">Смотреть видео о наставнике<img src="img/play_inverted.png"></a>
+				<a data-target="#teacher_info" data-toggle="modal" href="#">
+					<img src="img/video1.png">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid multivideo top-sm-40">
+	
+	</div>
+
+	<!--<div class="container-fluid watch double text-center top-sm-40 bottom-40">
+
+		<a data-target="#video" data-toggle="modal" href="#">
+			<div class="detecter left">
+				<img src="img/video1.png" class="bg left">
+				<img src="img/play.png" class="play left">
+			</div>
+		</a>
+		<div class="detecter right">
+			<a data-target="#video" data-toggle="modal" href="#">
+				<img src="img/video2.png" class="bg right">
+				<img src="img/play.png" class="play right">
+			</a>
+			<a class="link">Hui</a>
+		</div>
+
+	</div>-->
+
+	<div class="container text-center article">
+		<h2>
+			что вас ждет в фитнес-туре
+		</h2>
+		<div class="row bottom-40">
+			<div class="col-sm-offset-2 col-sm-8">
+				<p>
+					Нам интересно путешествовать, знакомиться с новыми людьми и вести здоровый образ жизни. Мы хотим, чтобы после нашей работы вы ощущали себя созданными заново.
+				</p>
+			</div>
+		</div>
+
+		<div class="row bottom-10 bottom-sm-60 tour">
+			<div class="col-xs-6 col-sm-4 pic text-left text-sm-center">
+				<img src="img/fitness.png">
+				<a href="#" class="sign">занятия йогой и фитнесом</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 pic text-right text-sm-center">
+				<img src="img/food.png">
+				<a href="#" class="sign">семинары по питанию и зож</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 pic text-left text-sm-center">
+				<img src="img/runing.png">
+				<a href="#" class="sign">утренние пробежки по берегу моря</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 pic text-right text-sm-center">
+				<img src="img/joy.png">
+				<a href="#" class="sign">веселая компания единомышленников</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 pic text-left text-sm-center">
+				<img src="img/photoset.png">
+				<a href="#" class="sign">тематические фотосессии</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 pic text-right text-sm-center">
+				<img src="img/brief_aventa.png">
+				<a href="#" class="sign">веселые вечеринки в дружной компании</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid gray">
+		<div class="container article text-center top-sm-40 bottom-0 bottom-sm-40">
+			<h2>Ваше путешествие будет сопровождать нутрициолог</h2>
+			<div class="col-sm-offset-2 col-sm-8">
+				<p>
+					Достижение желаемых результатов во время тура сильно зависит от Вашего питания. Поэтому мы предоставим Вам личного нутрициолога, который составит Ваш рацион питания и проследит за Вашими результатами.
+				</p>
+			</div>
+			<div class="row nutriciologist">
+				<div class="col-sm-offset-0 col-sm-12 col-md-offset-1 col-md-10 row">
+					<div class="col-xs-6 col-sm-3 top-sm-0">
+						<img src="img/measure.png">
+						<a>Замер показателей<br>"До тура"</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 top-sm-0">
+						<img src="img/chat.png">
+						<a>Консультация<br>во время тура</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 top-20 top-sm-0">
+						<img src="img/prelum.png">
+						<a>Отчет о результатах<br>"После тура"</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 top-20 top-sm-0">
+						<img src="img/ask.png">
+						<a>Консультация<br>после тура</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bodyflex">
+		<div class="row">
+			<div class="col-sm-12">
+				<a>Bodyflex - каждое утро на берегу моря</a>
+				<img src="img/bodyflex.png">
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-center article top-sm-40 bottom-40">
+		<h2>В стоимость фитнес-тура за 1400$ входит</h2>
+		<p class="col-sm-10 col-sm-offset-1">
+			Мы не поем мантры, не занимаемся духовной охинеей и тем более не навязываем религиозные предпочтения. Мы адекватные, любим отдыхать, ходить на вечеринки, играть в настольные игры и много общаться.
+		</p>
+		<div class="row icons">
+			<div class="col-xs-6 col-sm-4">
+				<img src="img/ico_plane.png">
+				<a class="title">
+					Перелет в обе стороны
+				</a>
+				<a>Из любой точки нашей страны и мира</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4">
+				<img src="img/ico_bus.png">
+				<a class="title">
+					Трансфер
+				</a>
+				<a>На комфортабельном автобусе</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4">
+				<img src="img/ico_map.png">
+				<a class="title">
+					Проживание в отеле
+				</a>
+				<a>Идеальные условия для занятий фитнесом</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4">
+				<img src="img/ico_man.png">
+				<a class="title">
+					Практика финеса
+				</a>
+				<a>Хатха-йога, BodyFlex, BodaArt, Силовой тренинг</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4">
+				<img src="img/ico_food.png">
+				<a class="title">
+					Питание в отеле
+				</a>
+				<a>По системе — «Все включено»</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-4">
+				<img src="img/cam.png">
+				<a class="title">
+					Семинары по зож и пп
+				</a>
+				<a>Знания, которые останутся с вами после тура</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid flight">
+		<div class="row">
+				<div class="col-sm-8 vcenter">
+					<table class="col-xs-12 col-sm-offset-0 col-lg-offset-1 col-lg-10 table table-custom">
+						<thead>
+						<tr>
+							<th>Вылет</th>
+							<th>Направление</th>
+							<th>Дата</th>
+							<th class="hidden-xs">Вылет/Прилет</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>
+								Москва(Внуково)
+							</td>
+							<td>
+								Тайланд(о. Пхукет)
+							</td>
+							<td>
+								11 марта
+							</td>
+							<td class="hidden-xs">
+								21:25/10:15
+							</td>
+						</tr>
+						<tr>
+							<td>
+								а/к Россия
+							</td>
+							<td>
+								Прямой чартер FV5875
+							</td>
+							<td>
+							</td>
+							<td class="hidden-xs">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Тайланд(о. Пхукет)
+							</td>
+							<td>
+								Москва(Внуково)
+							</td>
+							<td>
+								21 марта
+							</td>
+							<td class="hidden-xs">
+								12:35/18:35
+							</td>
+						</tr>
+						<tr>
+							<td>
+								а/к Россия
+							</td>
+							<td>
+								Прямой чартер FV5875
+							</td>
+							<td>
+							</td>
+							<td class="hidden-xs">
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="map col-xs-12 col-sm-4 vcenter">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3982368694674!2d98.27671864984411!3d8.060798494167573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3050478e2ba76f1d%3A0x389047772c170ef3!2sNaithonburi+Beach+Resort+4*2A!5e0!3m2!1sru!2sru!4v1495386988347" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+	</div>
+
+	<div class="container article text-center top-40 top-sm-60 bottom-40">
+		<h2>территория отеля NAITHONBURI BEACH RESORT 4*</h2>
+		<p class="col-sm-8 col-sm-offset-2">
+			Приятный, по-домашнему комфортный отель с обширной зелёной территорией идеально подходит для спокойного отдыха пар и семей с детьми.
+		</p>
+	</div>
+
+	<div class="container">
+		<div id="main_area" class="col-lg-10 col-lg col-lg-offset-1">
+			<!-- Slider -->
+			<div class="row">
+				<div class="col-xs-12 carousel-custom" id="slider">
+					<!-- Top part of the slider -->
+					<div class="row">
+						<div class="col-sm-12" id="carousel-bounding-box">
+							<div class="carousel slide" id="myCarousel">
+								<!-- Carousel items -->
+								<div class="carousel-inner">
+									<div class="active item" data-slide-number="0">
+										<img src="img/bank.png">
+									</div>
+
+									<div class="item" data-slide-number="1">
+										<img src="http://placehold.it/770x300&text=two"></div>
+
+									<div class="item" data-slide-number="2">
+										<img src="http://placehold.it/770x300&text=three"></div>
+
+									<div class="item" data-slide-number="3">
+										<img src="http://placehold.it/770x300&text=four"></div>
+
+									<div class="item" data-slide-number="4">
+										<img src="http://placehold.it/770x300&text=five"></div>
+
+									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+										<img src="img/left.png" class="arrow">
+									</a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+										<img src="img/right.png" class="arrow">
+									</a>
+								</div><!-- Carousel nav -->
+
+								<div class="col-sm-6" id="carousel-text"></div>
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+									<li data-target="#myCarousel" data-slide-to="3"></li>
+									<li data-target="#myCarousel" data-slide-to="4"></li>
+								</ol>
+							</div>
+						</div>
+
+
+						<div id="slide-content" style="display: none;">
+							<div id="slide-content-0">
+								<a href="#">Береговая линия</a>
+							</div>
+
+							<div id="slide-content-1">
+								<a href="#">Не береговая линия</a>
+							</div>
+
+							<div id="slide-content-2">
+								<a href="#">Не береговая линия</a>
+							</div>
+
+							<div id="slide-content-3">
+								<a href="#">Не береговая линия</a>
+							</div>
+
+							<div id="slide-content-4">
+								<a href="#">Не береговая линия</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/Slider-->
+
+			<div class="row" id="slider-thumbs">
+				<!-- Bottom switcher of slider -->
+				<ul class="hide-bullets hidden-xs">
+					<li class="col-sm-3">
+						<a class="thumbnail" id="carousel-selector-0"><img src="img/beach.png"></a>
+					</li>
+
+					<li class="col-sm-3">
+						<a class="thumbnail" id="carousel-selector-1"><img src="img/bank_icon.png"></a>
+					</li>
+
+					<li class="col-sm-3">
+						<a class="thumbnail" id="carousel-selector-2"><img src="img/elephant.png"></a>
+					</li>
+
+					<li class="col-sm-3">
+						<a class="thumbnail" id="carousel-selector-3"><img src="img/spring.png"></a>
+					</li>
+
+					<li class="col-sm-3">
+						<a class="thumbnail" id="carousel-selector-4"><img src="img/shore.png"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container article text-center top-10 top-sm-60 bottom-40">
+		<h2>
+			Окунитесь в атмосферу предстоящего тура
+		</h2>
+		<p class="col-sm-10 col-sm-offset-1">
+			Мы не будем скучать и отлёживаться на пляже. Мы сплотимся, как единое целое, и обязательно найдём общие интересы. Откроем в каждом человеке что-то новое и невероятное. Мы все вместе перезагрузим свои головы.<br>
+			Это будет наша отправная точка в новую жизнь!
+		</p>
+	</div>
+	<div class="container-fluid album hidden-xs bottom-30 bottom-sm-60">
+		<img src="img/1.png">
+		<img src="img/2.png">
+		<img src="img/3.png">
+		<img src="img/4.png">
+		<img src="img/5.png">
+		<img src="img/6.png">
+		<img src="img/7.png">
+		<img src="img/8.png">
+		<img src="img/9.png">
+		<img src="img/10.png">
+		<img src="img/11.png">
+		<img src="img/12.png">
+		<img src="img/13.png">
+		<img src="img/14.png">
+	</div>
+
+	<div id="new-album" class="visible-xs">
+
+	</div>
+
+
+
+	<div class="container-fluid text-center schedule top-10 top-sm-60">
+		<h2 class="top-sm-50">Ежедневная программа на весь тур</h2>
+		<div class="row text-center top-sm-40 bottom-sm-40">
+			<ul  class="nav nav-pills">
+				<li class="active">
+					<a  href="#1a" data-toggle="tab">День 1</a>
+				</li>
+				<li><a href="#2a" data-toggle="tab">День 2</a>
+				</li>
+				<li><a href="#3a" data-toggle="tab">День 3</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="tab-content bottom-sm-60 clearfix">
+
+			<div id="1a" class="tab-pane  events-container active">
+
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/title_icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+			</div>
+
+			<div id="2a" class="tab-pane events-container">
+
+				<div class="event">
+					<div class="icon">
+						<img src="img/title_icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+			</div>
+
+			<div id="3a" class="tab-pane events-container">
+
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/title_icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+				<div class="event">
+					<div class="icon">
+						<img src="img/icon.png">
+					</div>
+					<div class="title text-left">
+						<div class="time">10:00</div>
+						<div class="subtitle">Заголовок 20 символов</div>
+					</div>
+					<p class="top-20">
+						Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером 210 знаков с пробелами. Текст размером...
+					</p>
+				</div>
+			</div>
+	</div>
+
+	</div>
+
+
+	<div class="container-fluid widebg free">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="img/free.png">
+				<div class="inner">
+					<div class="container text-center text-sm-left top-sm-40 bottom-30 bottom-sm-60">
+						<h2>Бесплатная йога в Москве</h2>
+						<div class="row">
+							<p class="col-sm-7">Мы прекрасно понимаем, что это очень важное решение в
+								Вашей жизни, поэтому для знакомства с нашим проектом мы создали череду бесплатных занятий, чтобы Вы прониклись и поняли нашу философию.</p>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<button class="btn btn-custom btn-lg">Записаться на занятие</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container article text-center top-sm-60 top-20">
+		<h2>Отзывы людей побывавших в наших турах</h2>
+		<div class="row">
+			<p class="col-sm-10 col-sm-offset-1 bottom-40">
+				Перед каждым туром мы за 2 недели организуем WhatsApp чат, в котором Вы задаёте вопросы на любые темы и уже знакомитесь с будущими участниками тура. Также, этот чат позволяет нам оперативно уведомлять Вас о всех событиях, находясь в самом туре. По-секрету, все участники продолажют общаться после тура очень длительное время.
+			</p>
+
+		</div>
+		<div class="row bottom-60">
+			<div id="feedCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+				<!-- Indicators -->
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="col-sm-4 col-sm-offset-2">
+							<img src="img/social.png" class="feedback">
+						</div>
+						<div class="col-sm-4">
+							<img src="img/social.png" class="feedback">
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="col-sm-4 col-sm-offset-2">
+							<img src="img/social.png" class="feedback">
+						</div>
+						<div class="col-sm-4">
+							<img src="img/social_1.png" class="feedback">
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="col-sm-4 col-sm-offset-2">
+							<img src="img/social_1.png" class="feedback">
+						</div>
+						<div class="col-sm-4">
+							<img src="img/social_1.png" class="feedback">
+						</div>
+					</div>
+					<a class="right carousel-control" href="#feedCarousel" role="button" data-slide="next">
+						<img src="img/left_black.png" class="arrow">
+					</a>
+					<a class="left carousel-control" href="#feedCarousel" role="button" data-slide="prev">
+						<img src="img/right_black.png" class="arrow">
+					</a>
+				
+				</div>
+				<ol class="carousel-indicators">
+					<li data-target="#feedCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#feedCarousel" data-slide-to="1"></li>
+					<li data-target="#feedCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Left and right controls -->
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="container-fluid bodyflex">
+		<div class="row">
+			<div class="col-sm-12">
+				<a>Почувствуйте командный ритм и единость коллектива</a>
+				<img src="img/unity.png">
+			</div>
+		</div>
+	</div>
+
+	<div class="container article text-center">
+		<h2>тарифы на тур</h2>
+		<p class="bottom-sm-40 bottom-10 caps">в стоимость также включено</p>
+		<div class="row nutriciologist bottom-40">
+			<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-3 top-20 top-sm-0">
+				<img src="img/hotel.png">
+				<a>Стандартный номер DBL</a>
+			</div>
+			<div class="col-xs-5 col-sm-3 top-20 top-sm-0">
+				<img src="img/wine.png">
+				<a>Питание - всё включено</a>
+			</div>
+			<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-3 top-20 top-sm-0">
+				<img src="img/yoga.png">
+				<a>Занятие йогой и фитнесом
+					каждый день</a>
+			</div>
+			<div class="col-xs-5 col-sm-3 top-20 top-sm-0">
+				<img src="img/airport.png">
+				<a>Перелёт и трансфер</a>
+			</div>
+		</div>
+		<div class="row sale hidden-xs">
+			<div class="col-sm-4">
+				<div class="holder">
+					<p class="title">
+						Стандарт
+					</p>
+					<hr>
+					<p class="price">1650 $</p>
+					<p class="description">
+						Стандартный номер Double.<br>
+						*(улучшить условия проживания и поменять номер на Single или DeLuxe вы можете связавшись с менеджером)
+					</p>
+					<p class="apix">
+						<button class="btn btn-custom">Забронировать билет в тур</button>
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="holder">
+					<p class="title">
+						Компания
+					</p>
+					<hr>
+					<p class="price">1550 $</p>
+					<p class="description">
+						Клиенты путешествующие компанией получают скидку 2000 руб. одного друга и по 3000 руб. за каждого следующего.
+					</p>
+					<p class="apix">
+						<button class="btn btn-custom">Забронировать билет в тур</button>
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="holder">
+					<p class="title">
+						Семья
+					</p>
+					<hr>
+					<p class="price">1550 $</p>
+					<p class="description">
+						Клиенты путешествующие с семьей, по желанию, могут платить только за человека принимающего участие в занятиях. И получают семейную скидку 3000 руб.
+					</p>
+					<p class="apix">
+						<button class="btn btn-custom">Забронировать билет в тур</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-center top-20 top-sm-60 bottom-20 bottom-sm-60">
+		<h2>Способы оплаты</h2>
+		<div class="row col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 top-sm-40 payment">
+			<div class="col-xs-3"><img src="img/w1.png" class="img-responsive"></div>
+			<div class="col-xs-3"><img src="img/visa.png" class="img-responsive"></div>
+			<div class="col-xs-3"><img src="img/mastercard.png" class="img-responsive"></div>
+			<div class="col-xs-3"><img src="img/mir_logo.png" class="img-responsive"></div>
+		</div>
+		<div class="row col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 top-20 payment">
+			<div class="col-xs-3"><img src="img/transfer.png" class="img-responsive"></div>
+			<div class="col-xs-3"><img src="img/logo-alfa-bank.png" class="img-responsive"></div>
+			<div class="col-xs-3"><img src="img/sber.png" class="img-responsive"></div>
+			<div class="col-xs-3"><img src="img/image.png" class="img-responsive"></div>
+		</div>
+
+	</div>
+
+	<div class="container meet text-center bottom-60">
+		<h2>Давайте познакомимся ближе</h2>
+		<div class="row bottom-10 bottom-sm-40">
+			<p>Ждём Вас в нашем офисе по адресу:<br>
+				Москва, ул.Садовая-Кудринская, д.32а, стр.9</p>
+		</div>
+		<div class="row text-left">
+			<div class="col-xs-12 col-sm-6 pull-right text-center">
+				<img src="img/meet.png" class="img-responsive">
+			</div>
+			<div class="col-xs-12 col-sm-6 pull-left top-10 top-sm-0">
+				<p>
+					<b>Фитнес и йога туры</b> — место куда попадают люди со схожими  интересами. Главными из которых являются стройное тело  и желание духовно обогатиться.
+				</p>
+				<p>
+					Команда «PROTRIP»  обладает профессиональной программой дляреализации  данныхпотребностей.
+				</p>
+				<br>
+				<br>
+					<b>Кратко о нас</b>
+				<br>
+				<br>
+				<div class="achievements">
+					<div class="row">
+						<div class="col-xs-6">
+							<p><b>2008</b><br>Опыт работы более 9 лет</p>
+						</div>
+
+						<div class="col-xs-6">
+							<p><b>1055</b><br>Счастливых клиентов</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-6">
+							<p><b>57</b><br>Проведенных туров</p>
+						</div>
+
+						<div class="col-xs-6">
+							<p><b>12</b><br>Человек в команде</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bodyflex">
+		<div class="row">
+			<div class="col-sm-12">
+				<a>Доверившись нам, вы получите незабываемый отдых</a>
+				<img src="img/trust.png">
+			</div>
+		</div>
+	</div>
+
+	<div class="container report text-center top-60">
+		<h2>
+			Фото отчёты и видео отызвы с прошлых туров
+		</h2>
+		<p class="col-sm-10 col-sm-offset-1 top-20 bottom-40">
+			С каждым годом количество последователей данного направления непрерывно растет, что подтверждает наша статистика. Каждый 3 клиент посещает фитнес-тур повторно. С нами может поехать человек в возрасте от 18 до 55 лет. Физическая гподготовка не имеет значения.
+		</p>
+		<div class="row records">
+			<div class="col-sm-4 pic">
+				<a class="type">Финтнес-тур</a>
+				<a class="title">Невероятное и уникальное путешествие во Вьетнам</a>
+				<a class="date">с 3 января по 13 января 2017</a>
+				<img src="img/trip1.png">
+			</div>
+
+			<div class="col-sm-4 pic">
+				<a class="type">Финтнес-тур</a>
+				<a class="title">Едем худеть к океану во Вьетнам</a>
+				<a class="date">с 2 ноября по 14 ноября 2016</a>
+				<img src="img/trip2.png">
+			</div>
+
+			<div class="col-sm-4 pic">
+				<a class="type">Финтнес-тур</a>
+				<a class="title">Футбольный тур или поиск самца на Кипре</a>
+				<a class="date">какого-то мая</a>
+				<img src="img/trip3.png">
+			</div>
+		</div>
+		<div class="row text-center top-20">
+			<button class="btn btn-custom">Посмотреть все отчеты</button>
+		</div>
+		<div class="top-20 row records">
+			<div class="col-sm-4 pic">
+				<a class="type">Йога тур</a>
+				<a class="title">Видео отзыв Милы о фитнес-туре в Шри-Ланке</a>
+				<a class="date">с 3 января по 13 января 2017</a>
+				<img src="img/trip4.png">
+				<a data-target="#video" data-toggle="modal" href="#" class="link"><img src="img/play.png" class="play"></a>
+			</div>
+
+			<div class="col-sm-4 pic">
+				<a class="type">Фитнес-тур</a>
+				<a class="title">Отзыв Анны Панфиловой о фитнес-туре во Вьетнам</a>
+				<a class="date">с 2 ноября по 14 ноября 2016</a>
+				<img src="img/trip5.png">
+				<a data-target="#video" data-toggle="modal" href="#" class="link"><img src="img/play.png" class="play"></a>
+			</div>
+
+			<div class="col-sm-4 pic">
+				<a class="type">Йога тур</a>
+				<a class="title">Видео отзыв Марины о тайном туре в Шри-Ланку</a>
+				<a class="date">какого-то мая</a>
+				<img src="img/trip6.png">
+				<a data-target="#video" data-toggle="modal" href="#" class="link"><img src="img/play.png" class="play"></a>
+			</div>
+		</div>
+		<div class="row text-center top-20 bottom-60">
+			<button class="btn btn-custom">Посмотреть все отзывыв</button>
+		</div>
+	</div>
+
+	<div class="container-fluid bodyflex action">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="complex">
+					<a>Помните, что вы у себя - один,<br>
+						сделайте первый шаг в отдых нового формата</a>
+					<button class="btn btn-custom btn-lg top-sm-40">Оставить заявку</button>
+				</div>
+				<img src="img/action.png" class="wide">
+			</div>
+		</div>
+	</div>
+<!--
+	<div class="container-fluid widebg action">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="img/action.png">
+				<div class="inner top-20 bottom-20 top-sm-60 bottom-sm-60">
+					<div class="container text-center top-sm-60">
+						<div class="row top-sm-60 bottom-sm-60">
+							<p class="col-sm-8 col-sm-offset-2">Помните, что вы у себя - один,<br>
+								сделайте первый шаг в отдых нового формата</p>
+						</div>
+						<div class="row bottom-20 top-20 bottom-sm-60">
+							<div class="col-xs-12">
+								<button class="btn btn-custom btn-lg">Оставить заявку</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	<div class="container text-center top-20">
+		<h2>
+			Вас так же может заинтересовать
+		</h2>
+
+		<div class="top-20 records row">
+			<div class="col-sm-4 pic">
+				<div class="advanced special text-center">
+					<a class="type">
+						Фитнес-тур
+					</a>
+					<a class="title">
+						Специальное предложение Марта
+					</a>
+					<a class="description">
+						Самое экологически чистое путешествие этой весны в завораживающий Тайланд
+					</a>
+					<a class="price">
+						От. 80 000 руб.
+					</a>
+					<a class="note">
+						Предложение ограниченно
+					</a>
+					<div class="row more">
+						<button class="btn btn-transparent">Подробнее о туре</button>
+					</div>
+				</div>
+				<img src="img/offer1.png">
+			</div>
+
+			<div class="col-sm-4 pic">
+				<div class="advanced text-center">
+					<a class="type">
+						Сёрфинг-тур
+					</a>
+					<a class="title">
+						Мальдивы
+					</a>
+					<a class="date">с 16 по 26 мая 2017</a>
+					<a class="price">
+						от 95 000 Ꝑ
+					</a>
+					<a class="description">
+						Познайте возможности свеого тела через океан страсти и эмоций
+					</a>
+					<a class="more" href="#">Подробнее о туре ></a>
+				</div>
+				<img src="img/offer2.png">
+			</div>
+
+			<div class="col-sm-4 pic">
+
+				<div class="advanced text-center">
+					<a class="type">
+						Вело тур
+					</a>
+					<a class="title">
+						Босния
+					</a>
+					<a class="date">с 1 по 10 июня 2017</a>
+					<a class="price">
+						от 75 000 Ꝑ
+					</a>
+					<a class="description">
+						Отправьтесь в самое неординарное путешествие в жизни
+					</a>
+					<a class="more" href="#">Подробнее о туре ></a>
+				</div>
+				<img src="img/offer3.png">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid gray">
+		<footer>
+			<div class="container hidden-xs">
+				<hr>
+				<div class="row breadcrumbs top-sm-40 bottom-20">
+					<div class="col-sm-12">
+						<img src="img/logo_blue.png" class="logo">
+						<a class="splitter">></a>
+						<a href="#">Главная</a>
+						<a class="splitter">></a>
+						<a href="#">Фитнес-туры</a>
+					</div>
+				</div>
+				<div class="row info">
+					<div class="col-sm-4">
+						<a class="head">
+							Куда поехать
+						</a>
+						<a class="common" href="#">Все туры</a>
+						<a class="common" href="#">Туры по странам</a>
+						<a class="common" href="#">Туры по направлениям</a>
+						<a class="common" href="#">Туры по месяцам</a>
+						<a class="common" href="#">Видео отзывы</a>
+						<a class="common" href="#">Отчеты о турах</a>
+					
+					</div>
+					
+					<div class="col-sm-4">
+						<a class="head">
+							Информация о компании
+						</a>
+						<a class="common" href="#">О нас</a>
+						<a class="common" href="#">История PROTRIP</a>
+						<a class="common" href="#">Наша команда</a>
+						<a class="common" href="#">Как мы работаем</a>
+						<a class="common" href="#">Тренировочные программы</a>
+						<a class="common" href="#">Партнерам</a>
+					
+					</div>
+					
+					
+					<div class="col-sm-4">
+						<a class="head">
+							Контакты
+						</a>
+						<a class="common"><b>+7 499 322 86 44</b><button class="btn btn-custom pull-right">Заказать звонок</button></a>
+						<a class="common">Адрес</a>
+						<a class="common">Мы в социальных сетях</a>
+						<div class="row web">
+							<div class="col-sm-12">
+								<a href="#"><img id="facebook" src="img/facebook.png"></a>
+								<a href="#"><img id="vk" src="img/vk.png"></a>
+								<a href="#"><img id="instagram" src="img/instagram.png"></a>
+								<a href="#"><img id="youtube" src="img/youtube.png"></a>
+							</div>
+						</div>
+					
+					</div>
+				
+				</div>
+				<div class="row text-center apix top-60">
+					<a>© 2008—2017. PROTRIP</a>
+					<a>Фитнес-туры №1 в России</a>
+				</div>
+			</div>
+			<div class="container visible-xs">
+				<div class="row apix top-10 bottom-10">
+					<div class="col-xs-12 text-center">
+						<img src="img/logo_blue.png" class="logo">
+					</div>
+					<div class="col-xs-12 text-center apix">
+						<a>Фитнес-туры №1 в россии</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<div class="modal fade modal-video autostart" id="video_tour" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					
+						<iframe src="https://www.youtube.com/embed/k7Gz7fyab9k?enablejsapi=1" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" allowfullscreen></iframe>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade modal-video autostart" id="teacher_info" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					
+					<iframe src="https://www.youtube.com/embed/Eg_BZ-z5AjY?enablejsapi=1" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" allowfullscreen></iframe>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade modal-video autostart" id="teacher_invite" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					
+					<iframe src="https://www.youtube.com/embed/x4afxe-G9Kg?enablejsapi=1" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" allowfullscreen></iframe>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="empty" role="dialog">
+		<div class="modal-dialog full">
+			<div class="modal-content">
+				<div class="modal-body">
+					<!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/common.min.js"></script>
+
+
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/index.js"></script>
+
+	<!--<script src="js/scripts.min.js"></script>-->
+
+</body>
+</html>
